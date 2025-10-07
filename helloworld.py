@@ -13,3 +13,9 @@ def sum_all(n):
         return n + sum_all(n - 1)
     
 print(sum_all(5))
+
+
+def add(x, y):
+    return x + y
+
+print(add(5, 4))
